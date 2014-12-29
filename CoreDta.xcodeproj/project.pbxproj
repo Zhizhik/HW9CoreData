@@ -16,6 +16,7 @@
 		B7C7B46A1A484691002E6D03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C7B4691A484691002E6D03 /* Images.xcassets */; };
 		B7C7B46D1A484691002E6D03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C7B46B1A484691002E6D03 /* LaunchScreen.xib */; };
 		B7C7B4791A484691002E6D03 /* CoreDtaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C7B4781A484691002E6D03 /* CoreDtaTests.m */; };
+		B7C7B4841A484981002E6D03 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C7B4831A484981002E6D03 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		B7C7B4721A484691002E6D03 /* CoreDtaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDtaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C7B4771A484691002E6D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7C7B4781A484691002E6D03 /* CoreDtaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDtaTests.m; sourceTree = "<group>"; };
+		B7C7B4821A484981002E6D03 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		B7C7B4831A484981002E6D03 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				B7C7B4691A484691002E6D03 /* Images.xcassets */,
 				B7C7B46B1A484691002E6D03 /* LaunchScreen.xib */,
 				B7C7B45D1A484691002E6D03 /* CoreDta.xcdatamodeld */,
+				B7C7B4821A484981002E6D03 /* Task.h */,
+				B7C7B4831A484981002E6D03 /* Task.m */,
 				B7C7B4561A484691002E6D03 /* Supporting Files */,
 			);
 			path = CoreDta;
@@ -231,6 +236,7 @@
 				B7C7B4621A484691002E6D03 /* MasterViewController.m in Sources */,
 				B7C7B45C1A484691002E6D03 /* AppDelegate.m in Sources */,
 				B7C7B45F1A484691002E6D03 /* CoreDta.xcdatamodeld in Sources */,
+				B7C7B4841A484981002E6D03 /* Task.m in Sources */,
 				B7C7B4591A484691002E6D03 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
